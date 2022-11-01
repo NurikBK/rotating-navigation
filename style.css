@@ -30,3 +30,34 @@ body {
   top: -100px;
   left: -100px;
 }
+
+.circle {
+  background-color: #ff7979;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  position: relative;
+  transition: transform 0.5s linear;
+}
+
+.circle button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  background-color: transparent;
+  border: 0;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.circle button:focus {
+  outline: none;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+
