@@ -96,7 +96,7 @@ nav ul li {
   text-transform: uppercase;
   margin: 2em;
   transform: translateX(-100%);
-  transition: transform 2.4s ease-in;
+  transition: transform 1.4s ease-in;
   color: #fff;
 }
 
@@ -129,7 +129,7 @@ nav ul li + li + li {
   margin: 0;
 }
 
-.conten small {
+.content small {
   color: #555;
   font-style: italic;
 }
